@@ -9,7 +9,7 @@ from email.mime.application import MIMEApplication
 app = Flask(__name__)
 
 def send_test_mail(body):
-    sender_email = "cheseo@student.42seoul.kr"
+    sender_email = "devcseo@gmail.com"
     receiver_email = "cheseo@sharklasers.com"
     user = input("Enter your smtp user: ")
     password = getpass.getpass("Enter password: ")
