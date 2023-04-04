@@ -1,0 +1,1 @@
+./sastantua_macos $@
