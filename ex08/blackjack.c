@@ -11,7 +11,7 @@ int	blackjack(char *str, int *A)
 		num = *str - 48;
 		if (*str == 'A')
 			(*A)++;
-		else if (*str == 'J' || *str == 'Q' || *str == 'K' || *str == 'D')
+		else if (*str == 'T' || *str == 'J' || *str == 'D' || *str == 'K')
 			res += 10;
 		else if (isdigit(*str) && num >= 2 && num <= 9)
 			res += num;

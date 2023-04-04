@@ -1,4 +1,1 @@
-while :
-do
-    yes "yes"
-done
+yes "yes"
